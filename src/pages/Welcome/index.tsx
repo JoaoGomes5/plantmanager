@@ -1,5 +1,10 @@
 import React from 'react';
-import { SafeAreaView , Text, Image, TouchableOpacity} from 'react-native';
+import { 
+  SafeAreaView , 
+  Text, 
+  Image, 
+  TouchableOpacity
+} from 'react-native';
 
 import { styles } from  './styles';
 import watering from '../../assets/watering.png';
@@ -17,6 +22,7 @@ export function Welcome(){
 
       <Image 
         source={watering}
+        resizeMode="contain"
         style={styles.image}
       />
 
