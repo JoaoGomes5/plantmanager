@@ -48,17 +48,25 @@ You can view the project layout through [this link](https://www.figma.com/file/H
 
 ## Running the project
 
+Clone the repository
+
 Use **yarn** or **npm install** to install project dependencies.
+
+```cl
+yarn
+```
+
 Then start the project.
 
 ```cl
 expo start
 ```
 
-Remember to create your App on the Discord server to get the authentication credentials. Then define your App settings in the .env file (remove the example from the .env.example file).
+Start the fake api.
+Replace the host with your local IP address. Do the same for the API file inside services.
  
  ```cl
-Under construction 🚧
+json-server ./src/services server.json --host 192.168.1.4 --port 3333 --delay 700
 ```
 
 
