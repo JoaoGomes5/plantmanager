@@ -11,8 +11,6 @@ import {
 import { styles } from './styles';
 
 import { Button } from '../../components/Button'
-import { useState } from 'react';
-import { theme } from '../../global/styles/theme';
 
 export function Confirmation(){
   return (
