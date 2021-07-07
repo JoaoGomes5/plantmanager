@@ -6,7 +6,11 @@ import { AntDesign } from '@expo/vector-icons';
 import { styles } from './styles'
 import { theme } from '../../global/styles/theme'
 
-export function ButtonStart({...rest } : RectButtonProps){
+type ButtonStartProps = RectButtonProps &{
+  
+}
+
+export function ButtonStart({...rest } : ButtonStartProps){
   return (
     <RectButton
       style={styles.container} 
