@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler'
-import { AntDesign } from '@expo/vector-icons';
+import { Feather } from '@expo/vector-icons';
 
 import { styles } from './styles'
 import { theme } from '../../global/styles/theme'
@@ -16,9 +16,9 @@ export function ButtonStart({...rest } : ButtonStartProps){
       style={styles.container} 
       {...rest}
     >
-     <AntDesign 
-        name="arrowright" 
-        size={24} 
+     <Feather 
+        name="chevron-right" 
+        size={32} 
         color={theme.colors.white}
       />
 
