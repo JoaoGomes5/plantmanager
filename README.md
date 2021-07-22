@@ -30,16 +30,16 @@
 - [ ] Async Storage
 - [ ] Vector Icons
 - [ ] React Native Svg and Svg Transform
-- [ ] Axios
+- [X] Axios
 - [ ] Gradient colors
-- [ ] Google Fonts Expo
-- [ ] React Navigation Stack
-- [ ] React Native Gesture Handler
+- [X] Google Fonts Expo
+- [X] React Navigation Stack
+- [X] React Native Gesture Handler
+- [X] React Native Iphone X Helper
 - [ ] Expo Authentication
 - [ ] React Native Share
 - [ ] Push Notifications
-- [ ] JSON Server
-
+- [X] JSON Server
 
 ## 🔖 Layout
 

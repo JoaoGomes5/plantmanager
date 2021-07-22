@@ -7,12 +7,18 @@ import {
   KeyboardAvoidingView,
   Platform
 } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 import { styles } from './styles';
 
 import { Button } from '../../components/Button'
 
 export function Confirmation(){
+  const navigation = useNavigation();
+
+  function handleMoveOn () {
+    navigation.navigate('PlantSelect')
+  }
   return (
     <SafeAreaView style={styles.container}>
       <KeyboardAvoidingView
@@ -42,6 +48,7 @@ export function Confirmation(){
               <Button 
                 text="Start"
                 activeOpacity={0.7}
+                onPress={handleMoveOn}
               />
             </View>
 
